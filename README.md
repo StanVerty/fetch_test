@@ -18,5 +18,12 @@ pytest -v -s --tb=short {--headless=false}
 #### headless mode:
 pytest -v -s --tb=short --headless=true
 
+If you failed to rut the test, watch these videos:
+
+Visible mode
+https://youtu.be/tkJyxlBnuNY
+
+Headless mode
+https://youtu.be/tkJyxlBnuNY
 
 # Enjoy!
