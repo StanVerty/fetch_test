@@ -1,7 +1,6 @@
 ## Requirements
 #### Python 3.11+
-#### Google Chrome Browser
-#### Chrome WebDriver (installed automatically using webdriver_manager)
+#### Google Chrome Browser + compatible chromedriver.exe in the drivers folder 
 
 ## Setup
 1. Clone the repository,
@@ -11,8 +10,11 @@
    pip install -r requirements.txt
 
 ## Running the Test
-#### in visible mode:
+#### visible mode:
 pytest -v -s --tb=short {--headless=false}
 
-#### in headless mode:
+#### headless mode:
 pytest -v -s --tb=short --headless=true
+
+
+# injoy!
