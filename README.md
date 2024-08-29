@@ -10,7 +10,5 @@ cd find-fake-gold-bar_sdet
 Install the required packages:
 
 pip install -r requirements.txt
-Install ChromeDriver:
 
-# ChromeDriver will be installed automatically using `webdriver_manager`.
 Running the Tests
