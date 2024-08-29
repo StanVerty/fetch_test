@@ -18,8 +18,8 @@ class TestFetchGame:
             assert hp.pop_up_positive()
             print(f"Fake bar is: {configs.final_bar}")
             weighing_list, number_of_weighing = hp.list_of_weighing_made()
-            print(f"This is list of weighing made: {weighing_list}")
-            print(f"This is number of weghings: {number_of_weighing}")
+            print(f"List of weighing made: {weighing_list}")
+            print(f"Number of weghings: {number_of_weighing}")
         except AssertionError:
             hp.take_screenshot(self.get_class_name(), this_function_name)
             raise

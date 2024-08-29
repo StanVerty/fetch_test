@@ -6,8 +6,8 @@ from sys import platform
 
 
 def pytest_addoption(parser):
-    parser.addoption("--headless", action="store", default="false", help="true,false")
-    parser.addoption("--run_from", action="store", default="local", help="local, docker")
+    parser.addoption("--headless", action="store", default="false", help="true, false")
+    parser.addoption("--run_from", action="store", default="local", help="local")
     group = parser.getgroup('custom_exit_code')
     group.addoption("--suppress-exit_codes", action='store_true', default=False,
                     help="Suppress all the exit codes except for 0")
@@ -28,8 +28,8 @@ def driver(headless, run_from):
     chrome_options = ChromeOptions()
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument("--incognito")
-    # if headless:
-    #     chrome_options.add_argument('--headless')
+    if headless == "true":
+        chrome_options.add_argument('--headless')
     if run_from == "local":
         print("Running local")
         chrome_driver = 'chromedriver.exe' if platform == 'win32' else 'chromedriver'
