@@ -23,7 +23,7 @@ Google Chrome Browser + compatible chromedriver.exe in the drivers folder
 If you failed to rut the test (I hope, you won't), unpack the popcorn and enjoy the videos:
 
 **Visible mode**
-   https://youtu.be/tkJyxlBnuNY
+   https://youtu.be/8eQhxjvbWqs
 
 **Headless mode**
    https://youtu.be/tkJyxlBnuNY
