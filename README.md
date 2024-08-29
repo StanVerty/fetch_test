@@ -14,12 +14,13 @@ Google Chrome Browser + compatible chromedriver.exe in the drivers folder
  - cd into project
    
 #### visible mode:
-   pytest -v -s --tb=short {--headless=false}
+   - pytest -v -s --tb=short {--headless=false}
 
 #### headless mode:
-   pytest -v -s --tb=short --headless=true
+   - pytest -v -s --tb=short --headless=true
 
-If you failed to rut the test, watch these videos:
+
+If you failed to rut the test (I hope, you won't), watch these videos for your entertainment:
 
 Visible mode
    https://youtu.be/tkJyxlBnuNY
