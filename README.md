@@ -6,11 +6,11 @@ Google Chrome Browser + compatible chromedriver.exe in the drivers folder
 ## Setup
 1. clone the repository,
 2. cd into project,
-3. create a vertual environment and activate it,
-4. Run comand to install the required packages:
+3. create a virtual environment and activate it,
+4. Run command to install the required packages:
    pip install -r requirements.txt
 
-## Running the Test in terminal
+## Running the Test in the terminal
  - cd into project
    
 #### visible mode:
@@ -20,12 +20,12 @@ Google Chrome Browser + compatible chromedriver.exe in the drivers folder
    - pytest -v -s --tb=short --headless=true
 
 
-If you failed to rut the test (I hope, you won't), watch these videos for your entertainment:
+If you failed to rut the test (I hope, you won't), unpack the popcorn and enjoy the videos:
 
-Visible mode
+**Visible mode**
    https://youtu.be/tkJyxlBnuNY
 
-Headless mode
+**Headless mode**
    https://youtu.be/tkJyxlBnuNY
 
 # Enjoy!
