@@ -21,7 +21,7 @@ Google Chrome Browser + compatible chromedriver.exe in the drivers folder
    - pytest -v -s --tb=short --headless=true
 
 
-If you failed to rut the test (I hope, you won't), unpack the popcorn and enjoy the videos:
+If you failed to rut the test (I hope, you won't), unpack popcorn and enjoy the videos:
 
 **Visible mode**
    https://youtu.be/8eQhxjvbWqs
