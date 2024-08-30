@@ -28,5 +28,3 @@ If you failed to rut the test (I hope, you won't), unpack the popcorn and enjoy 
 
 **Headless mode**
    https://youtu.be/tkJyxlBnuNY
-
-# Enjoy!
