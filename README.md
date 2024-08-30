@@ -8,7 +8,8 @@ Google Chrome Browser + compatible chromedriver.exe in the drivers folder
 2. cd into project,
 3. create a virtual environment and activate it,
 4. Run command to install the required packages:
-   pip install -r requirements.txt
+
+   - pip install -r requirements.txt
 
 ## Running the Test in the terminal
  - cd into project
